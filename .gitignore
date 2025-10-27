@@ -1,2 +1,5 @@
 /build
 .stm32env
+/.settings
+/.vscode
+/test/build
