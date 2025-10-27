@@ -30,7 +30,7 @@ jobs:
       - name: Configure CMake
         run: |
           cd test
-          cmake -S . -B build
+          cmake -Wno-dev -S . -B build
 
       # 3. Build the project
       - name: Build project
